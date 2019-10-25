@@ -1,0 +1,29 @@
+.redtext{
+	color:red;
+	font-size:80px;
+	text-align: center;
+}
+
+.myself{
+	background-color:darkcyan;
+	background-image: "amal2"
+}
+.div{
+  /*padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;*/
+  border:1px solid black;
+  width:100px;
+ 
+  float:left;
+  background-color:tomato;
+  display:block;
+}
+.div1{
+	display:block;
+	border:1px solid red;
+	border-radius:15%;
+	width:300px;
+	float:right;
+}

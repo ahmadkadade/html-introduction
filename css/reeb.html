@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The School Website</title>
+</head>
+<style>
+	
+
+
+	#nav{
+
+		width: 800px;
+		height: 1000px;
+		background-color: red;
+		margin-left: 20%;
+	}
+
+	#head{
+
+		width: 800px;
+		height: 200px;
+		background-color:black;
+		margin-left: 20%;
+		border-radius: 10px;
+		background: url(a.jpeg);
+	}
+
+	div.gal1{
+
+		margin: 5px;
+		float: right;
+		width: 500;
+		height: 300;
+		box-shadow: 8px 8px 6px;
+	}
+div.gal1{
+
+	border: 1px solid #ccc;
+}
+
+div.gal2{
+
+		margin: 5px;
+		float: left;
+		width:300;
+		height: 300px;
+		background-color: white;
+		box-shadow: 8px 8px 6px;
+
+	}
+
+	
+	input{
+
+		margin-top: 15px;
+		border: 2px solid black;
+		border-radius: 5px;
+		width: 200px;
+
+	}
+
+	div.gallery{
+
+		margin: 5px;
+		float: left;
+		width: 180px;
+		margin-top: 10px;
+
+	}
+	div.gallerry:hover{
+
+		border: 1px solid #777;
+	}
+	div.gallery img{
+
+		width: 100%;
+		height: auto;
+	}
+
+	div.desc{
+		padding: 15px;
+		text-align: center;
+	}
+	div.link{
+
+	    margin: 5px;
+		float: left;
+		width: 800px;
+		margin-left: 20%;
+		height: 100px;
+		background-color: black;
+	}
+	#lin ul li{
+		float: left;
+		list-style: none;
+
+	}
+	#lin ul li a{
+
+		width: 180px;
+		display: block;
+		text-decoration: none;
+		letter-spacing: 2px;
+		line-height: 30px;
+		font-family: sans-serif;
+		color:white;
+		margin-top: 25px;
+		margin-left: 10px;
+	}
+
+	#lin ul li a:hover{
+
+		border-radius: 12px;
+		background-color: white;
+		color:black;
+		
+		font-family: sans-serif;
+
+
+	}
+</style>
+<body>
+	<div id="head"><img src="slider3.jpg" width="800" height="200"></div>
+	<div class="link">
+		<div id="lin"> 
+			<ul>
+ 	
+ 	<li><a href="SIS.html">SIS</a></li>
+
+ 	<li><a href="PMS.html">PMS</a></li>
+
+ 	<li><a href="contact.html">Contac Us</a></li>
+
+ </ul>
+
+</div>
+
+	</div>
+<div id="nav">
+	<div class="gal2">
+
+
+	<div class="gal1">
+		<img src="slider4.jpg" width="500" height="300" name="slide">
+
+<script language="javascript">
+	
+	var i =0;
+	var path = new Array();
+
+ path[0] = "slider1.jpg";
+ path[1] = "slider2.jpg";
+ path[2] = "slider3.jpg";
+ path[3] = "slider4.jpg";
+
+	function dissolveImage() {
+		document.slide.src = path[i];
+
+		if (i < path.length - 1) i++;else i = 0;
+		setTimeout("dissolveImage()" , 3000);
+		
+		
+	}
+window.onload = dissolveImage;
+</script>
+
+	</div>
+
+
+</div>
+</body>
+</html>
