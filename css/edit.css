@@ -1,5 +1,9 @@
+body {
+	font-family: Helvetica, 'Segoe UI', sans-serif;
+}
+
 .redtext{
-	color:red;
+	color:tomato;
 	font-size:80px;
 	text-align: center;
 }
@@ -14,7 +18,9 @@
   padding-bottom: 50px;
   padding-left: 80px;*/
   border:1px solid black;
-  width:100px;
+  width:300px;
+  margin-left: 20px;
+  padding: 20px;
  
   float:left;
   background-color:tomato;
@@ -22,8 +28,11 @@
 }
 .div1{
 	display:block;
-	border:1px solid red;
-	border-radius:15%;
+	border:3px solid tomato;
+	color: white;
+	border-radius:20px;
+	padding: 20px;
 	width:300px;
 	float:right;
+	margin-right: 20px;
 }
